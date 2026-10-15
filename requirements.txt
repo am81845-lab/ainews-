@@ -1,0 +1,9 @@
+Django>=5.0,<6.0
+requests>=2.31
+beautifulsoup4>=4.12
+feedparser>=6.0
+vaderSentiment>=3.3
+anthropic>=0.40
+python-dotenv>=1.0
+# Optional, better entity extraction (people / orgs / places):
+# spacy>=3.7   then:  python -m spacy download en_core_web_sm
